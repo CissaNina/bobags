@@ -1,0 +1,7 @@
+.item_list--text {
+    height: 0;
+    flex-direction: column;
+    opacity: 0;
+    transition: height 1s;
+    margin: 0;
+}
