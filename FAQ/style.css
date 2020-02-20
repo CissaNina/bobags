@@ -1,3 +1,20 @@
+body{
+    font-family: 'Helvetica';
+    line-height: 20px;
+}
+
+ul{
+    list-style-type: none;
+    font-size:14px;
+}
+
+.questionBox{
+    padding: 1em 0;
+    width: 50vw;
+    display: flex;
+    align-items:center;   
+}
+
 .item_list--text {
     height: 0;
     flex-direction: column;
@@ -5,3 +22,10 @@
     transition: height 1s;
     margin: 0;
 }
+
+a{ 
+color: #ac4e6f;
+padding-top:0.5em;
+}
+
+a:link {text-decoration: none}
