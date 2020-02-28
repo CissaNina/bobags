@@ -8,12 +8,12 @@
 </head>
 <body>
     <main>
-        <section>
-            <ul>
+        <section id='body'>
+            <!-- <ul>
                 <li class="item_list">
-                    <a  style="font-weight: 700;"class="item_list--question" onclick="showInfo()" href="#">Como funciona?</a>
-                    <div class=" questionBox">
-                        <p style="padding:10px; justify-content: center;background-color:#f4f2ea";"id="textInfo" class="item_list--text">
+                    <a class="item_list--question" onclick="showInfo()" href="#">Como funciona?</a>
+                    <div class="questionBox">
+                        <p id="textInfo" class="item_list--text">
                         Somos uma plataforma de aluguel de itens originais. Pense no ClosetBoBags como um closet online e virtual: 
                         você pega algumas peças que gostaria de usar por um tempo, usa, devolve (e, se amar, muitas estão a venda). 
                         É só navegar pelo site e escolher o item (ou os itens) e o período pelo qual deseja alugar. E pronto!
@@ -25,9 +25,9 @@
                     </div>
                 </li>
                 <li class="item_list">
-                    <a style="font-weight: 700;"class="item_list--question" onclick="showInfo()" href="#">Como faço para devolver o item?</a>
-                    <div class=" questionBox">
-                        <p style="padding:10px; justify-content: center;background-color:#f4f2ea";"id="textInfo2" class="item_list--text2">
+                    <a href="#" class="item_list--question" onclick="showInfo2()" >Como faço para devolver o item?</a>
+                    <div class="questionBox">
+                        <p  id="textInfo2" class="item_list--text2">
                         Para a devolução, temos 3 opções:
                         1) Você pode deixar em um de nossos escritórios, em SP, no Itaim, ou no RJ, em ipanema;
                         2) Você pode adquirir o serviço de coleta domiciliar - dessa forma faremos a coleta na sua residência ou
@@ -38,9 +38,9 @@
                     </div>
                 </li>
                 <li class="item_list">
-                    <a style="font-weight: 700;"class="item_list--question" onclick="showInfo()" href="#">Como funciona o caução?</a>
-                    <div class=" questionBox">
-                        <p style="padding:10px; justify-content: center;background-color:#f4f2ea";"id="textInfo3" class="item_list--text3">
+                    <a class="item_list--question" onclick="showInfo3()" href="#">Como funciona o caução?</a>
+                    <div class="questionBox">
+                        <p  id="textInfo3" class="item_list--text">
                         Uma análise de risco é feita no momento da compra e no pós compra mediante confirmação de aluguel. 
                         Em um processo normal, o caução não é cobrado previamente. Em casos descritos nos Termos e Condições, 
                         como a não devolução do item, ou caso a peça retorne com algum dano ou avaria, ele será cobrado.
@@ -50,9 +50,9 @@
                     </div>
                 </li>
                 <li class="item_list">
-                    <a style="font-weight: 700;"class="item_list--question" onclick="showInfo()" href="#">Como faço para renovar?</a>
+                    <a class="item_list--question" onclick="showInfo4()" href="#">Como faço para renovar?</a>
                     <div class=" questionBox">
-                        <p style="padding:10px; justify-content: center;background-color:#f4f2ea";"id="textInfo4" class="item_list--text4">
+                        <p id="textInfo4" class="item_list--text">
                         Para você renovar o seu aluguel é só fazer seu login no site, ir em "meus pedidos" e clicar no + ao lado do pedido que você quer renovar. 
                         Lá, você verá a opção "renovar aluguel". É só clicar e selecionar por quanto tempo você quer renovar e pronto!
                         Ficou com dúvidas? Segue um videozinho curto explicando o processo:
@@ -61,14 +61,14 @@
                     </div>
                 </li>
                 <li class="item_list">
-                    <a style="font-weight: 700;"class="item_list--question" onclick="showInfo()" href="#">
+                    <a class="item_list--question" onclick="showInfo5()" href="#">
                         Está aparecendo uma mensagem de 
                         que a data escolhida não possui 
                         intervalo mínimo entre aluguéis. 
                         O que significa?
                     </a>
                     <div class=" questionBox">
-                        <p style="padding:10px; justify-content: center;background-color:#f4f2ea";"id="textInfo5" class="item_list--text5">
+                        <p id="textInfo5" class="item_list--text">
                         Qual seria o item e para qual data você gostaria de alugar? 
                         Provavelmente você não está conseguindo agendar porque o site calcula 
                         uma carência de dias em relação ao aluguel anterior e aluguel posterior da(s) peça(s).
@@ -76,12 +76,12 @@
                     </div>
                 </li>
                 <li class="item_list">
-                    <a style="font-weight: 700;"class="item_list--question" onclick="showInfo()" href="#">
+                    <a class="item_list--question" onclick="showInfo6()" href="#">
                         Estou finalizando um pedido 
                         mas não aparece a data que 
                         quero receber, como faço? </a>
                     <div class=" questionBox">
-                        <p style="padding:10px; justify-content: center;background-color:#f4f2ea";"id="textInfo6" class="item_list--text6">
+                        <p id="textInfo6" class="item_list--text">
                         Provavelmente esse item que você selecionou não é "agendável". Itens de festa, por ex, possuem a opção de agendamento. 
                         Itens do dia-a-dia precisam estar disponíveis para serem alugados e o envio deles é imediato. 
                         🙂 Após a finalização do pedido, nos envie um email com a data que quer receber o item.
@@ -91,51 +91,51 @@
                     </div>
                 </li>
                 <li class="item_list">
-                    <a style="font-weight: 700;"class="item_list--question" onclick="showInfo()" href="#">
+                    <a class="item_list--question" onclick="showInfo7()" href="#">
                     Não paguei coleta, ainda consigo pagar?</a>
                     <div class=" questionBox">
-                        <p style="padding:10px; justify-content: center;background-color:#f4f2ea";"id="textInfo7" class="item_list--text7">
+                        <p id="textInfo7" class="item_list--text">
                         Claro! Você pode fazer o pagamento da coleta através do link de pagamento que vamos gerar para você.
                         </p>
                     </div>
                 </li>
                 <li class="item_list">
-                    <a style="font-weight: 700;"class="item_list--question" onclick="showInfo()" href="#"">
+                    <a class="item_list--question" onclick="showInfo8()" href="#">
                     É garantido que vou receber meu pedido na data que escolhi?</a>
                     <div class=" questionBox">
-                        <p style="padding:10px; justify-content: center;background-color:#f4f2ea";"id="textInfo8" class="item_list--text8">
+                        <p id="textInfo8" class="item_list--text">
                         Sim! Nós sempre sugerimos colocar de 1 a 2 dias antes da data do evento ou viagem. 
                         Pode deixar que a logística é com a gente!
                         </p>
                     </div>
                 </li>
                 <li class="item_list">
-                    <a style="font-weight: 700;"class="item_list--question" onclick="showInfo()" href="#">
+                    <a class="item_list--question" onclick="showInfo9()" href="#">
                     Tem cupom de desconto para primeiro aluguel?</a>
                     <div class=" questionBox">
-                        <p style="padding:10px; justify-content: center;background-color:#f4f2ea";"id="textInfo9" class="item_list--text9">
+                        <p id="textInfo9" class="item_list--text">
                             Sim! O cupom é o PROMO10 e você precisa estar logada para a plataforma identificar que esse será seu primeiro aluguel. 
                             É só usá-lo no checkout.
                         </p>
                     </div>
                 </li>
                 <li class="item_list">
-                    <a style="font-weight: 700;"class="item_list--question" onclick="showInfo()" href="#">
+                    <a class="item_list--question" onclick="showInfo10()" href="#">
                     Até que horas posso retirar meu pedido?</a>
                     <div class=" questionBox">
-                        <p style="padding:10px; justify-content: center;background-color:#f4f2ea";"id="textInfo10" class="item_list--text10">
+                        <p id="textInfo10" class="item_list--text">
                         Nossos escritórios possuem horário de atendimento das 09:00 às 18:00, de segunda a sexta.</p>
                     </div>
                 </li>
                 <li class="item_list">
-                    <a style="font-weight: 700;"class="item_list--question" onclick="showInfo()" href="#">
+                    <a class="item_list--question" onclick="showInfo11()" href="#">
                     A que horas vocês vão entregar meu pedido?</a>
                     <div class=" questionBox">
-                        <p style="padding:10px; justify-content: center;background-color:#f4f2ea";"id="textInfo11" class="item_list--text11">
+                        <p id="textInfo11" class="item_list--text">
                         Todas as nossas entregas acontecem em horário comercial, de 9:00 as 19:00.</p>
                     </div>
                 </li>                            
-            </ul>
+            </ul> -->
         </section>
     </main>
     <script src="./main.js"></script>
