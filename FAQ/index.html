@@ -9,133 +9,21 @@
 <body>
     <main>
         <section id='body'>
-            <!-- <ul>
-                <li class="item_list">
-                    <a class="item_list--question" onclick="showInfo()" href="#">Como funciona?</a>
-                    <div class="questionBox">
-                        <p id="textInfo" class="item_list--text">
-                        Somos uma plataforma de aluguel de itens originais. Pense no ClosetBoBags como um closet online e virtual: 
-                        você pega algumas peças que gostaria de usar por um tempo, usa, devolve (e, se amar, muitas estão a venda). 
-                        É só navegar pelo site e escolher o item (ou os itens) e o período pelo qual deseja alugar. E pronto!
-                        Itens de festa e de ski possuem a opção de agendamento. Para os demais itens, o envio é imediato com 
-                        prazo de até 4 dias úteis (RJ e SP em até 2 dias - podendo ser entregue no mesmo dia).        
-                        Ficou com dúvidas? Segue um videozinho curto explicando o processo:
-                        <a href="https://www.youtube.com/watch?v=qi5WUuuTXFo">https://www.youtube.com/watch?v=qi5WUuuTXFo</a>
-                        </p>
-                    </div>
-                </li>
-                <li class="item_list">
-                    <a href="#" class="item_list--question" onclick="showInfo2()" >Como faço para devolver o item?</a>
-                    <div class="questionBox">
-                        <p  id="textInfo2" class="item_list--text2">
-                        Para a devolução, temos 3 opções:
-                        1) Você pode deixar em um de nossos escritórios, em SP, no Itaim, ou no RJ, em ipanema;
-                        2) Você pode adquirir o serviço de coleta domiciliar - dessa forma faremos a coleta na sua residência ou
-                        3) Você pode postar via sedex para nosso escritório de SP ou do RJ.
-                        Ainda ficou com dúvidas? Segue aqui um vídeo curtinho explicando o processo:
-                        <a href="https://www.youtube.com/watch?v=qYC1Nrg7RYI">https://www.youtube.com/watch?v=qYC1Nrg7RYI</a>
-                        </p>
-                    </div>
-                </li>
-                <li class="item_list">
-                    <a class="item_list--question" onclick="showInfo3()" href="#">Como funciona o caução?</a>
-                    <div class="questionBox">
-                        <p  id="textInfo3" class="item_list--text">
-                        Uma análise de risco é feita no momento da compra e no pós compra mediante confirmação de aluguel. 
-                        Em um processo normal, o caução não é cobrado previamente. Em casos descritos nos Termos e Condições, 
-                        como a não devolução do item, ou caso a peça retorne com algum dano ou avaria, ele será cobrado.
-                        Mas, você será previamente comunicado, evitando assim, qualquer surpresa. Além disso, como nenhum valor é cobrado no momento do aluguel, 
-                        o valor caução não compromete o limite do seu cartão de crédito.
-                        </p>
-                    </div>
-                </li>
-                <li class="item_list">
-                    <a class="item_list--question" onclick="showInfo4()" href="#">Como faço para renovar?</a>
-                    <div class=" questionBox">
-                        <p id="textInfo4" class="item_list--text">
-                        Para você renovar o seu aluguel é só fazer seu login no site, ir em "meus pedidos" e clicar no + ao lado do pedido que você quer renovar. 
-                        Lá, você verá a opção "renovar aluguel". É só clicar e selecionar por quanto tempo você quer renovar e pronto!
-                        Ficou com dúvidas? Segue um videozinho curto explicando o processo:
-                        <a href="https://www.youtube.com/watch?v=BhOt-XAKYtA">https://www.youtube.com/watch?v=BhOt-XAKYtA</a>
-                        </p>
-                    </div>
-                </li>
-                <li class="item_list">
-                    <a class="item_list--question" onclick="showInfo5()" href="#">
-                        Está aparecendo uma mensagem de 
-                        que a data escolhida não possui 
-                        intervalo mínimo entre aluguéis. 
-                        O que significa?
-                    </a>
-                    <div class=" questionBox">
-                        <p id="textInfo5" class="item_list--text">
-                        Qual seria o item e para qual data você gostaria de alugar? 
-                        Provavelmente você não está conseguindo agendar porque o site calcula 
-                        uma carência de dias em relação ao aluguel anterior e aluguel posterior da(s) peça(s).
-                        </p>
-                    </div>
-                </li>
-                <li class="item_list">
-                    <a class="item_list--question" onclick="showInfo6()" href="#">
-                        Estou finalizando um pedido 
-                        mas não aparece a data que 
-                        quero receber, como faço? </a>
-                    <div class=" questionBox">
-                        <p id="textInfo6" class="item_list--text">
-                        Provavelmente esse item que você selecionou não é "agendável". Itens de festa, por ex, possuem a opção de agendamento. 
-                        Itens do dia-a-dia precisam estar disponíveis para serem alugados e o envio deles é imediato. 
-                        🙂 Após a finalização do pedido, nos envie um email com a data que quer receber o item.
-                        Ficou com dúvidas? Segue um videozinho curto explicando o processo:
-                        <a href="https://www.youtube.com/watch?v=qi5WUuuTXFo">https://www.youtube.com/watch?v=qi5WUuuTXFo</a>
-                        </p>
-                    </div>
-                </li>
-                <li class="item_list">
-                    <a class="item_list--question" onclick="showInfo7()" href="#">
-                    Não paguei coleta, ainda consigo pagar?</a>
-                    <div class=" questionBox">
-                        <p id="textInfo7" class="item_list--text">
-                        Claro! Você pode fazer o pagamento da coleta através do link de pagamento que vamos gerar para você.
-                        </p>
-                    </div>
-                </li>
-                <li class="item_list">
-                    <a class="item_list--question" onclick="showInfo8()" href="#">
-                    É garantido que vou receber meu pedido na data que escolhi?</a>
-                    <div class=" questionBox">
-                        <p id="textInfo8" class="item_list--text">
-                        Sim! Nós sempre sugerimos colocar de 1 a 2 dias antes da data do evento ou viagem. 
-                        Pode deixar que a logística é com a gente!
-                        </p>
-                    </div>
-                </li>
-                <li class="item_list">
-                    <a class="item_list--question" onclick="showInfo9()" href="#">
-                    Tem cupom de desconto para primeiro aluguel?</a>
-                    <div class=" questionBox">
-                        <p id="textInfo9" class="item_list--text">
-                            Sim! O cupom é o PROMO10 e você precisa estar logada para a plataforma identificar que esse será seu primeiro aluguel. 
-                            É só usá-lo no checkout.
-                        </p>
-                    </div>
-                </li>
-                <li class="item_list">
-                    <a class="item_list--question" onclick="showInfo10()" href="#">
-                    Até que horas posso retirar meu pedido?</a>
-                    <div class=" questionBox">
-                        <p id="textInfo10" class="item_list--text">
-                        Nossos escritórios possuem horário de atendimento das 09:00 às 18:00, de segunda a sexta.</p>
-                    </div>
-                </li>
-                <li class="item_list">
-                    <a class="item_list--question" onclick="showInfo11()" href="#">
-                    A que horas vocês vão entregar meu pedido?</a>
-                    <div class=" questionBox">
-                        <p id="textInfo11" class="item_list--text">
-                        Todas as nossas entregas acontecem em horário comercial, de 9:00 as 19:00.</p>
-                    </div>
-                </li>                            
-            </ul> -->
+            <div class="boxCategory" id="operacao">
+                <h2>OPERAÇÃO</h2>
+            </div>
+            <div class="boxCategory" id="financa">
+                <h2>FINANCEIRO</h2>
+            </div>
+            <div class="boxCategory" id="logistica">
+                <h2>LOGÍSTICA</h2>
+            </div>
+            <div class="boxCategory" id="marketplace">
+                <h2>MARKETPLACE</h2>
+            </div>
+            <div  class="boxCategory" id="assinatura">
+                <h2>ASSINATURA</h2>
+            </div>
         </section>
     </main>
     <script src="./main.js"></script>
