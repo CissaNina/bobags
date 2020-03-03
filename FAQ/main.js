@@ -47,10 +47,10 @@ let questList = [
     },
     {   
         categoria:'operacao',
-        title: 'Amei e quero ficar mais tempo com o item, como faço?',
-        text: 'Para você renovar o seu aluguel é só fazer seu login no site, ir em "meus pedidos" e clicar no + ao lado do pedido que ' +
-        'você quer renovar. Lá, você verá a opção "renovar aluguel". É só clicar e selecionar por quanto tempo você quer renovar e ' +
-        'pronto! Ficou com dúvidas? Segue um videozinho curto explicando o processo:',
+        title: 'Como faço para renovar??',
+        text: 'Para você renovar o seu aluguel é só fazer seu login no site, ir em "meus pedidos" e clicar no + ao lado do pedido que você quer renovar.' +
+               'Lá, você verá a opção "renovar aluguel". É só clicar e selecionar por quanto tempo você quer renovar e pronto!'+
+               'Ficou com dúvidas? Segue um videozinho curto explicando o processo:',
         video: 'https://www.youtube.com/watch?v=BhOt-XAKYtA',
         info:''
     },
@@ -73,8 +73,8 @@ let questList = [
     },
     {
         categoria:'operacao',
-        title: 'Quando eu fechei o pedido eu não optei pela coleta domiciliar, mas agora mudei de ideia. Como faço para comprar o serviço?',
-        text: 'É só enviar um email para atendimento@bobags.com.br solicitando o link para pagamento da coleta domiciliar.',
+        title: 'QNão paguei coleta, ainda consigo pagar??',
+        text: 'Claro! Você pode fazer o pagamento da coleta através do link de pagamento que vamos gerar para você.',
         video: '',
         info:''
     },
@@ -88,9 +88,10 @@ let questList = [
     },
     {
         categoria:'operacao',
-        title: 'Está aparecendo uma mensagem de que a data escolhida não possui intervalo mínimo entre aluguéis. O que significa?',
-        text: 'Qual seria o item e para qual data você gostaria de alugar? Provavelmente você não está conseguindo agendar porque o ' +
-        'site calcula uma carência de dias em relação ao aluguel anterior e aluguel posterior da(s) peça(s).',
+        title: 'Está aparecendo uma mensagem de  que a data escolhida não possui intervalo mínimo entre aluguéis. O que significa?',
+        text: 'Qual seria o item e para qual data você gostaria de alugar? ' +
+               'Provavelmente você não está conseguindo agendar porque o site calcula' +
+               'uma carência de dias em relação ao aluguel anterior e aluguel posterior da(s) peça(s).',
         video: '',
         info:''
     },
